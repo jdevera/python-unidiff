@@ -5,12 +5,12 @@
 """Tests for the unified diff parser process."""
 
 import os.path
-import unittest2
+import unittest
 
 from unidiff import parser
 
 
-class TestUnidiffParser(unittest2.TestCase):
+class TestUnidiffParser(unittest.TestCase):
     """Tests for Unified Diff Parser."""
 
     def setUp(self):

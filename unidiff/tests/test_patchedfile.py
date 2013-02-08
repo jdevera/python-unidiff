@@ -3,12 +3,12 @@
 
 """Tests for PatchedFile."""
 
-import unittest2
+import unittest
 
 from unidiff.patch import PatchedFile, Hunk
 
 
-class TestPatchedFile(unittest2.TestCase):
+class TestPatchedFile(unittest.TestCase):
     """Tests for PatchedFile."""
 
     def setUp(self):

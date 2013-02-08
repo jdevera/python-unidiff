@@ -4,12 +4,12 @@
 
 """Tests for Hunk."""
 
-import unittest2
+import unittest
 
 from unidiff.patch import Hunk, LINE_TYPE_ADD, LINE_TYPE_DELETE, LINE_TYPE_CONTEXT
 
 
-class TestHunk(unittest2.TestCase):
+class TestHunk(unittest.TestCase):
     """Tests for Hunk."""
 
     def setUp(self):
